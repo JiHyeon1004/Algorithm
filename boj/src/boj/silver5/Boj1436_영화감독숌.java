@@ -23,5 +23,4 @@ public class Boj1436_영화감독숌 {
 		}
 		System.out.println(i);
 	}
-
 }
