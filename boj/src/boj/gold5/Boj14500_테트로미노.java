@@ -19,7 +19,6 @@ public class Boj14500_테트로미노 {
 		int sum = 0;
 		int foursum = 0;
 		int max = 0;
-		int cnt = 0;
 		int row = 0;
 		int column = 0;
 
@@ -42,6 +41,7 @@ public class Boj14500_테트로미노 {
 
 											row = a;
 											column = b;
+											int cnt = 0;
 
 											while (cnt < 5) {
 												int[] dr = { -1, 1, 0, 0 };
@@ -70,6 +70,11 @@ public class Boj14500_테트로미노 {
 												}
 
 											}
+											check[a][b] = 0;
+											check[c][d] = 0;
+											check[e][f] = 0;
+											check[g][h] = 0;
+
 										}
 									}
 								}
