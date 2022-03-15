@@ -3,6 +3,8 @@ package boj.silver2;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.StringTokenizer;
 
 public class Boj1260_DFS와BFS {
@@ -51,6 +53,11 @@ public class Boj1260_DFS와BFS {
 			}
 		}
 		
+		
+	}
+	
+	public static void BFS(int node) {
+		Queue<Integer> bfs = new LinkedList<Integer>();
 		
 	}
 	
