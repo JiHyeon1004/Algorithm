@@ -53,10 +53,12 @@ public class Boj11650_좌표정렬하기 {
 			}
 		}
 
+		StringBuilder sb = new StringBuilder();
 		// 출력
 		for (int i = 0; i < N; i++) {
-			System.out.println(coor[i][0] + " " + coor[i][1]);
+			sb.append(coor[i][0]).append(" ").append(coor[i][1]).append("\n");
 		}
+		System.out.println(sb.toString());
 	}
 
 }
