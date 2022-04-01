@@ -73,6 +73,6 @@ public class Boj1966_프린터큐 {
 			sb.append(cnt).append('\n');
 		}
 		// 출력
-		System.out.println(sb.toString());
+		System.out.println(sb);
 	}
 }
